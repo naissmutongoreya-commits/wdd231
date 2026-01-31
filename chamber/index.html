@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +16,39 @@
   <!-- Open Graph -->
   <meta property="og:title" content="Bulawayo Chamber of Commerce">
   <meta property="og:description" content="Connecting businesses and growing Bulawayo’s economy.">
-  <meta property="og:image" content="https://naissmutongoreya-commits.github.io/wdd231/chamber/images/og-image.webp">
-  <meta property="og:url" content="https://naissmutongoreya-commits.github.io/wdd231/chamber/index.html">
+  <meta property="og:image" content="https://naisonmutongoreya.github.io/wdd231/chamber/images/og-image.webp">
+  <meta property="og:url" content="https://naisonmutongoreya.github.io/wdd231/chamber/index.html">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <!-- JS -->
+  <script src="scripts/home.js" defer></script>
+</head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bulawayo Chamber of Commerce | Home</title>
+  <meta name="description" content="Welcome to the Bulawayo Chamber of Commerce supporting local business growth.">
+  <meta name="author" content="Naison Mutongoreya">
+
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bulawayo Chamber of Commerce">
+  <meta property="og:description" content="Connecting businesses and growing Bulawayo’s economy.">
+  <meta property="og:image" content="https://naisonmutongoreya.github.io/wdd231/chamber/images/og-image.webp">
+  <meta property="og:url" content="https://naisonmutongoreya.github.io/wdd231/chamber/index.html">
   <meta property="og:type" content="website">
 
   <!-- Google Fonts -->
@@ -32,67 +66,57 @@
 </head>
 
 <body class="home">
-
-  <header>
-    <h1>Bulawayo Chamber of Commerce</h1>
+<header>
+  <h1>Bulawayo Chamber of Commerce</h1>
+  <nav>
+    <button id="menu">☰</button>
     <ul class="navigation">
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html" class="active">Home</a></li>
       <li><a href="directory.html">Directory</a></li>
-      <li><a href="join.html">Join</a></li>
+      <li><a href="#">Join</a></li>
+      <li><a href="#">Discover</a></li>
     </ul>
-  </header>
+  </nav>
+</header>
 
-  <!-- HERO SECTION -->
+<main>
+
+  <!-- HERO -->
   <section class="hero">
     <img src="images/og-image.webp" alt="Bulawayo city view">
-    <a href="join.html" class="cta">Join the Chamber</a>
-
-    <!-- CURRENT EVENTS inside hero -->
-    <div class="current-events">
-      <h2>Current Events</h2>
-      <ul>
-        <li>Business Networking Breakfast - Feb 15</li>
-        <li>Small Business Workshop - Feb 20</li>
-        <li>Annual Chamber Gala - Mar 5</li>
-      </ul>
-    </div>
+    <a href="#" class="cta">Join the Chamber</a>
   </section>
 
-  <!-- BELOW HERO: WEATHER + SPOTLIGHTS -->
-  <section class="below-hero">
-    <!-- LEFT COLUMN: Weather -->
-    <div class="weather">
-      <h2>Weather</h2>
-      <p>Current temperature: <span id="temp"></span>°C</p>
-      <p>Conditions: <span id="description"></span></p>
-      <p>3-day forecast:</p>
-      <ul id="forecast"></ul>
-    </div>
-
-    <!-- RIGHT COLUMN: Member Spotlights -->
-    <div class="spotlights">
-      <div class="spotlight-card">
-        <img src="images/member1.webp" alt="Member 1 logo">
-        <h3>Company One</h3>
-        <p>Gold Member</p>
-      </div>
-      <div class="spotlight-card">
-        <img src="images/member2.webp" alt="Member 2 logo">
-        <h3>Company Two</h3>
-        <p>Silver Member</p>
-      </div>
-      <div class="spotlight-card">
-        <img src="images/member3.webp" alt="Member 3 logo">
-        <h3>Company Three</h3>
-        <p>Gold Member</p>
-      </div>
-    </div>
+  <!-- EVENTS -->
+  <section class="events">
+    <h2>Current Events</h2>
+    <ul>
+      <li>📅 Business Networking Breakfast – Friday</li>
+      <li>📅 SME Funding Workshop – Next Week</li>
+    </ul>
   </section>
 
-  <footer>
-    <p>&copy; <span id="year"></span> Naison Mutongoreya, WDD 231. Last Modified: <span id="lastModified"></span></p>
-  </footer>
+  <!-- WEATHER -->
+  <section class="weather">
+    <h2>Weather</h2>
+    <p><strong>Temperature:</strong> <span id="temp"></span>°C</p>
+    <p><strong>Condition:</strong> <span id="desc"></span></p>
+    <h3>3-Day Forecast</h3>
+    <div class="forecast" id="forecast"></div>
+  </section>
 
-  <script src="scripts/main.js"></script>
+  <!-- SPOTLIGHTS -->
+  <section class="spotlights">
+    <h2>Member Spotlights</h2>
+    <div id="spotlight-container"></div>
+  </section>
 
+</main>
+
+<footer>
+  <p>Contact: info@bulawayochamber.org | +263 29 123456</p>
+  <p>© <span id="year"></span> Bulawayo Chamber | Naison Mutongoreya | WDD 231</p>
+  <p>Last Modified: <span id="lastModified"></span></p>
+</footer>
 </body>
+</html>
