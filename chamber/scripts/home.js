@@ -1,4 +1,4 @@
-const apiKey = "YOUR_OPENWEATHER_API_KEY";
+const apiKey = "0f2e26f178f45f27cd68df3b18a4ed79";
 const city = "Bulawayo";
 const lat = -20.15;
 const lon = 28.58;
