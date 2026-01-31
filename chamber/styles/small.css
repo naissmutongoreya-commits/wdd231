@@ -27,6 +27,7 @@ header, footer {
 .view-buttons {
   text-align: center;
   margin: 1rem 0;
+  justify-content: center;
 }
 
 #members.grid {
