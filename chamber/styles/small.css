@@ -43,6 +43,7 @@ header, footer {
   border: 1px solid #ccc;
   padding: 1rem;
   background: #f9f9f9;
+  justify-content: center;
 }
 
 .member-card img {
