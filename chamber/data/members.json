@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Matobo Mining Supplies",
+      "address": "12 Main Street, Bulawayo",
+      "phone": "+263 77 111 2222",
+      "website": "https://example.com",
+      "image": "member1.webp",
+      "membership": 3,
+      "description": "Mining and industrial equipment supplier."
+    },
+    {
+      "name": "Khami Tech Solutions",
+      "address": "45 Jason Moyo Ave, Bulawayo",
+      "phone": "+263 71 333 4444",
+      "website": "https://example.com",
+      "image": "member2.webp",
+      "membership": 2,
+      "description": "IT services and software development."
+    },
+    {
+      "name": "Bulawayo Logistics",
+      "address": "78 Airport Road, Bulawayo",
+      "phone": "+263 78 555 6666",
+      "website": "https://example.com",
+      "image": "member3.webp",
+      "membership": 1,
+      "description": "Transport and logistics solutions."
+    },
+    {
+      "name": "Mzilikazi Construction",
+      "address": "10 Luveve Road, Bulawayo",
+      "phone": "+263 77 888 9999",
+      "website": "https://example.com",
+      "image": "member4.webp",
+      "membership": 3,
+      "description": "Commercial and residential construction."
+    },
+    {
+      "name": "Matabeleland Finance",
+      "address": "22 Fort Street, Bulawayo",
+      "phone": "+263 71 000 1111",
+      "website": "https://example.com",
+      "image": "member5.webp",
+      "membership": 2,
+      "description": "Financial advisory and accounting services."
+    },
+    {
+      "name": "Nkayi Agro Dealers",
+      "address": "Nkayi Growth Point",
+      "phone": "+263 77 222 3333",
+      "website": "https://example.com",
+      "image": "member6.webp",
+      "membership": 1,
+      "description": "Agricultural inputs and support services."
+    },
+    {
+      "name": "Victoria Falls Tourism Group",
+      "address": "Tourism House, Bulawayo",
+      "phone": "+263 78 444 5555",
+      "website": "https://example.com",
+      "image": "member7.webp",
+      "membership": 3,
+      "description": "Tourism and travel services."
+    }
+  ]
+}
