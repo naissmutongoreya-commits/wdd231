@@ -1,0 +1,101 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #1f2933;
+  color: white;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.branding img {
+  width: 40px;
+}
+
+#menu {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+}
+
+nav {
+  display: none;
+  background: #111827;
+}
+
+nav.open {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  padding: 0.75rem;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a.active {
+  background: #374151;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.filters {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filters button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #1f2933;
+  color: white;
+  cursor: pointer;
+}
+
+#courses {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.course-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.course-card.completed {
+  background: #dcfce7;
+  border-color: #22c55e;
+}
+
+footer {
+  padding: 1rem;
+  background: #1f2933;
+  color: white;
+  text-align: center;
+}
