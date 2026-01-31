@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bulawayo Chamber of Commerce | Home</title>
+  <meta name="description" content="Welcome to the Bulawayo Chamber of Commerce supporting local business growth.">
+  <meta name="author" content="Naison Mutongoreya">
+
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bulawayo Chamber of Commerce">
+  <meta property="og:description" content="Connecting businesses and growing Bulawayo’s economy.">
+  <meta property="og:image" content="https://naisonmutongoreya.github.io/wdd231/chamber/images/og-image.webp">
+  <meta property="og:url" content="https://naisonmutongoreya.github.io/wdd231/chamber/index.html">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <!-- JS -->
+  <script src="scripts/home.js" defer></script>
+</head>
+
+<body>
+<header>
+  <h1>Bulawayo Chamber of Commerce</h1>
+  <nav>
+    <button id="menu">☰</button>
+    <ul class="navigation">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="#">Join</a></li>
+      <li><a href="#">Discover</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="images/og-image.webp" alt="Bulawayo city view">
+    <a href="#" class="cta">Join the Chamber</a>
+  </section>
+
+  <!-- EVENTS -->
+  <section class="events">
+    <h2>Current Events</h2>
+    <ul>
+      <li>📅 Business Networking Breakfast - Friday</li>
+      <li>📅 SME Funding Workshop - Next Week</li>
+    </ul>
+  </section>
+
+  <!-- WEATHER -->
+  <section class="weather">
+    <h2>Weather</h2>
+    <p><strong>Temperature:</strong> <span id="temp"></span>°C</p>
+    <p><strong>Condition:</strong> <span id="desc"></span></p>
+    <h3>3-Day Forecast</h3>
+    <div class="forecast" id="forecast"></div>
+  </section>
+
+  <!-- SPOTLIGHTS -->
+  <section class="spotlights">
+    <h2>Member Spotlights</h2>
+    <div id="spotlight-container"></div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Contact: info@bulawayochamber.org | +263 29 123456</p>
+  <p>© <span id="year"></span> Bulawayo Chamber | Naison Mutongoreya | WDD 231</p>
+  <p>Last Modified: <span id="lastModified"></span></p>
+</footer>
+</body>
+</html>
+
