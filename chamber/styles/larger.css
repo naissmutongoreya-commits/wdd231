@@ -1,17 +1,13 @@
-/* Styles that affect all pages */
 @media (min-width: 768px) {
+
+  /* ------------------ Navigation ------------------ */
   .navigation {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
   }
 
-  #members.grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  }
-}
-
-@media (min-width: 768px) {
+  /* ------------------ Home Page ------------------ */
   .home main {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -21,11 +17,13 @@
   .spotlights div {
     grid-template-columns: repeat(3, 1fr);
   }
-}
 
-@media (min-width: 768px) {
+  /* ------------------ Directory ------------------ */
+  #members.grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 
-  /* ------------------ Layout ------------------ */
+  /* ------------------ Join Page ------------------ */
   .join-layout {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -36,7 +34,6 @@
     margin-top: 0;
   }
 
-  /* ------------------ Cards ------------------ */
   .membership-cards .card {
     transition: transform 0.3s ease;
   }
@@ -44,5 +41,4 @@
   .membership-cards .card:hover {
     transform: translateY(-5px);
   }
-
 }
