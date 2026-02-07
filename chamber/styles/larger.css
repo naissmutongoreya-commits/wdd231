@@ -22,3 +22,27 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+@media (min-width: 768px) {
+
+  /* ------------------ Layout ------------------ */
+  .join-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+  }
+
+  .membership-cards {
+    margin-top: 0;
+  }
+
+  /* ------------------ Cards ------------------ */
+  .membership-cards .card {
+    transition: transform 0.3s ease;
+  }
+
+  .membership-cards .card:hover {
+    transform: translateY(-5px);
+  }
+
+}
