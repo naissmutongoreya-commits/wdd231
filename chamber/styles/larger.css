@@ -7,6 +7,10 @@
     gap: 1.5rem;
   }
 
+  .navigation li {
+    margin: 0;
+  }
+
   /* ------------------ Home Page ------------------ */
   .home main {
     display: grid;
@@ -14,6 +18,7 @@
     gap: 1.5rem;
   }
 
+  /* ------------------ Spotlights ------------------ */
   .spotlights div {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -40,5 +45,32 @@
 
   .membership-cards .card:hover {
     transform: translateY(-5px);
+  }
+
+  /* ------------------ Discover Page (MEDIUM+) ------------------ */
+  .discover-grid {
+    grid-template-areas:
+      "card1 card2"
+      "card3 card4"
+      "card5 card6"
+      "card7 card8";
+  }
+
+  .discover-grid img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  .discover-grid img:hover {
+    transform: scale(1.05);
+    filter: brightness(90%);
+  }
+}
+
+/* ------------------ Discover Page (LARGE) ------------------ */
+@media (min-width: 1025px) {
+  .discover-grid {
+    grid-template-areas:
+      "card1 card2 card3 card4"
+      "card5 card6 card7 card8";
   }
 }

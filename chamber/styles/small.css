@@ -23,16 +23,17 @@ h3 {
 header,
 footer {
   background-color: #1e3a5f;
-  color: white;
+  color: #fff;
   padding: 1rem;
   text-align: center;
 }
 
-/* ------------------ Navigation ------------------ */
+/* ------------------ Navigation (Mobile First) ------------------ */
 .navigation {
   list-style: none;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 .navigation li {
@@ -40,8 +41,9 @@ footer {
 }
 
 .navigation a {
-  color: white;
+  color: #fff;
   text-decoration: none;
+  font-weight: 600;
 }
 
 /* ------------------ Hero ------------------ */
@@ -52,6 +54,7 @@ footer {
 .hero img {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 .cta {
@@ -59,10 +62,25 @@ footer {
   bottom: 20px;
   right: 20px;
   background-color: #1e3a5f;
-  color: white;
+  color: #fff;
   padding: 0.75rem 1rem;
   text-decoration: none;
   font-weight: 700;
+}
+
+/* ------------------ Reusable Card Pattern ------------------ */
+.card,
+.member-card,
+.spotlight-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.card img,
+.member-card img {
+  width: 100%;
+  height: auto;
 }
 
 /* ------------------ Directory ------------------ */
@@ -79,18 +97,6 @@ footer {
 
 #members.list section {
   display: block;
-}
-
-.member-card,
-.spotlight-card {
-  border: 1px solid #ccc;
-  padding: 1rem;
-  background-color: #f9f9f9;
-}
-
-.member-card img {
-  max-width: 100%;
-  height: auto;
 }
 
 /* ------------------ Spotlights ------------------ */
@@ -142,10 +148,23 @@ input[type="submit"] {
 }
 
 .membership-cards .card {
-  border: 1px solid #ccc;
-  padding: 1rem;
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: #fff;
+}
+
+/* ------------------ Discover Page (SMALL) ------------------ */
+.discover-grid {
+  display: grid;
+  grid-template-areas:
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    "card6"
+    "card7"
+    "card8";
+  gap: 1rem;
 }
 
 /* ------------------ Animation ------------------ */
