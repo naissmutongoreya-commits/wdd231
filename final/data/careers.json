@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "title": "Mining Engineer",
+        "education": "BSc Mining Engineering",
+        "salary": "USD 60,000 - 120,000",
+        "location": "Zimbabwe",
+        "description": "Designs and supervises safe and efficient mining operations."
+    },
+    {
+        "id": 2,
+        "title": "Geotechnical Engineer",
+        "education": "BSc Geotechnical Engineering",
+        "salary": "USD 55,000 - 110,000",
+        "location": "South Africa",
+        "description": "Analyzes soil and rock mechanics for mine stability."
+    },
+    {
+        "id": 3,
+        "title": "Mine Surveyor",
+        "education": "Diploma in Mine Surveying",
+        "salary": "USD 45,000 - 90,000",
+        "location": "Botswana",
+        "description": "Measures and maps mining sites."
+    },
+    {
+        "id": 4,
+        "title": "Mineral Processing Engineer",
+        "education": "BSc Metallurgical Engineering",
+        "salary": "USD 65,000 - 115,000",
+        "location": "Namibia",
+        "description": "Processes extracted minerals efficiently."
+    },
+    {
+        "id": 5,
+        "title": "Drilling Engineer",
+        "education": "BSc Mining Engineering",
+        "salary": "USD 70,000 - 130,000",
+        "location": "Australia",
+        "description": "Manages drilling operations."
+    },
+    {
+        "id": 6,
+        "title": "Blasting Engineer",
+        "education": "Mining Engineering Degree",
+        "salary": "USD 75,000 - 125,000",
+        "location": "Canada",
+        "description": "Plans and executes safe blasting operations."
+    },
+    {
+        "id": 7,
+        "title": "Ventilation Engineer",
+        "education": "Mining Engineering Degree",
+        "salary": "USD 60,000 - 100,000",
+        "location": "Zimbabwe",
+        "description": "Ensures proper airflow in underground mines."
+    },
+    {
+        "id": 8,
+        "title": "Safety Officer",
+        "education": "Safety Management Diploma",
+        "salary": "USD 40,000 - 80,000",
+        "location": "Zambia",
+        "description": "Maintains safety compliance in mines."
+    },
+    {
+        "id": 9,
+        "title": "Environmental Engineer",
+        "education": "Environmental Engineering Degree",
+        "salary": "USD 50,000 - 95,000",
+        "location": "South Africa",
+        "description": "Manages environmental impacts of mining."
+    },
+    {
+        "id": 10,
+        "title": "Mine Manager",
+        "education": "Mining Engineering + Experience",
+        "salary": "USD 90,000 - 180,000",
+        "location": "USA",
+        "description": "Oversees full mining operations."
+    },
+    {
+        "id": 11,
+        "title": "Resource Geologist",
+        "education": "BSc Geology",
+        "salary": "USD 55,000 - 100,000",
+        "location": "Zimbabwe",
+        "description": "Identifies and evaluates mineral deposits."
+    },
+    {
+        "id": 12,
+        "title": "Mine Planner",
+        "education": "Mining Engineering Degree",
+        "salary": "USD 65,000 - 120,000",
+        "location": "Chile",
+        "description": "Develops mine production schedules."
+    },
+    {
+        "id": 13,
+        "title": "Heavy Equipment Supervisor",
+        "education": "Technical Mining Qualification",
+        "salary": "USD 50,000 - 95,000",
+        "location": "Botswana",
+        "description": "Supervises mining machinery operations."
+    },
+    {
+        "id": 14,
+        "title": "Metallurgist",
+        "education": "BSc Metallurgy",
+        "salary": "USD 60,000 - 110,000",
+        "location": "Namibia",
+        "description": "Extracts valuable metals from ore."
+    },
+    {
+        "id": 15,
+        "title": "Exploration Engineer",
+        "education": "Mining or Geological Engineering Degree",
+        "salary": "USD 65,000 - 115,000",
+        "location": "South Africa",
+        "description": "Searches for new mineral resources."
+    }
+]

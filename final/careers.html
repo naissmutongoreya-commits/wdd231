@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Naison Mutongoreya">
+    <meta name="description" content="Explore global mining engineering career opportunities and required education.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Mining Careers">
+    <meta property="og:description" content="Browse mining engineering jobs and opportunities.">
+    <meta property="og:type" content="website">
+    <title>Careers | Mining Engineering Career Guide</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <h1>Mining Engineering Career Guide</h1>
+        <button id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+        <nav id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="careers.html">Careers</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Mining Careers</h2>
+
+        <label for="locationFilter">Filter by Location:</label>
+        <select id="locationFilter">
+            <option value="all">All</option>
+            <option value="Zimbabwe">Zimbabwe</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Botswana">Botswana</option>
+            <option value="Namibia">Namibia</option>
+        </select>
+
+        <div id="career-container"></div>
+    </main>
+
+    <dialog id="careerModal">
+        <div class="modal-content"></div>
+        <button onclick="document.getElementById('careerModal').close()">Close</button>
+    </dialog>
+
+    <footer>
+        <p>© 2026 Naison Mutongoreya</p>
+        <a href="attributions.html">Attributions</a>
+        <p><a href="YOUR_VIDEO_LINK_HERE">Project Video</a></p>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

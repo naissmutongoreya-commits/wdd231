@@ -1,0 +1,104 @@
+:root {
+    --primary: #1f3c88;
+    --secondary: #f4b41a;
+    --bg: #f9f9f9;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: var(--bg);
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: none;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+#menuBtn {
+    background: var(--secondary);
+    border: none;
+    padding: 0.5rem;
+}
+
+#navMenu.open {
+    display: block;
+}
+
+.hero {
+    padding: 2rem;
+    text-align: center;
+}
+
+.cta {
+    background: var(--secondary);
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.card {
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form input,
+form select {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    nav {
+        display: block !important;
+    }
+
+    #menuBtn {
+        display: none;
+    }
+
+    #career-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+nav a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav a:focus,
+button:focus,
+select:focus,
+input:focus {
+    outline: 3px solid var(--secondary);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
